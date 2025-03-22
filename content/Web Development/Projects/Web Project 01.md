@@ -1,6 +1,6 @@
 You will have to develop the following project in HTML and CSS.
 
-![[Main.png]]
+![[Project Image 01.png]]
 
 You can access the Figma file of the project [here](https://www.figma.com/design/344GbSxZ6hi1uFOF88IpUn/HTML-and-CSS-Study-Project?node-id=0-1&t=yhkCfacvfBCnJj3W-1)
 
