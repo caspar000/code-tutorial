@@ -68,3 +68,46 @@ For you to achieve movement, you have to add or subtract the player speed from t
 ![[Pasted image 20250329131442.png]]
 
 Similarly for diagonal movement, where you have to increase/decrease the x and y position **at the same time**.
+
+# TASK
+Your task is to implement all the movement functions:
+1. `movePlayerLeft`
+2. `movePlayerRight`
+3. `movePlayerUp`
+4. `movePlayerDown`
+5. `movePlayerNorthWest`
+6. `movePlayerNorthEast`
+7. `movePlayerSouthWest`
+8. `movePlayerSouthEast`
+
+While making sure that the Player cannot move out of bounds of the screen. 
+
+## Hint
+To make sure that the player does not move out of the screen, you will need a **conditional** statement, in this case, an **if statement**. With an if statement, you can run, or NOT run some code depending on the condition. The condition always evaluates to a **True** or a **False**. For example:
+```javascript
+a = 0
+b = 1
+
+if (a === 0) {
+	console.log('This code will run because A is indeed 0')
+}
+if (a === 1) {
+	console.log('This will not run')
+}
+if (b === 0) {
+	console.log('This will not run')
+}
+if (b === 1) {
+	console.log('This code will run because B is indeed 1')
+}
+```
+
+The condition can have an equality `===` or inequality `!==`. For example: `if (a === 0)` will only be true when a is exactly 0. `if (a !== 0)` will be true every time that a IS NOT 0. You can also have greater than and less then, like `if (a < 0)` or `if (a > 0)`;
+1. `if (a === b)` (if a is exactly equal to b)
+2. `if (a !== b)` (if a is anything but b)
+3. `if (a <= b)` (if a is less than or equal to b)
+4. `if (a >= b)` (if a is greater than or equal to b)
+5. `if (a < b)` (if a is less than b)
+6. `if (a > b)` (if a is greater than b)
+7. `if (a < b && c > d)` (you can have more complex statements with boolean logic (and, or, etc.))
+
