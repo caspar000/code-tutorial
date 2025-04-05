@@ -6,7 +6,8 @@ You can view all the material we have gone through on this website. It will also
 # PROJECTS
 - [[Web Project 01]]
 - [[Web Project 02]]
-- [[Web Project 03 (Game Movement)]]
+- [[Snake (Part 1)]]
+- [[Snake (Part 2)]]
 
 ## HTML, CSS, JavaScript
 - [[HTML Reference]]
